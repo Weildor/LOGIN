@@ -1,0 +1,68 @@
+/* ---- Estilos generales ---- */
+body {
+    font-family: Arial, sans-serif;
+    background: #e8ebef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* ---- Contenedor del formulario ---- */
+.container {
+    background: white;
+    padding: 25px;
+    width: 320px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* ---- Título del formulario ---- */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* ---- Inputs ---- */
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    height: 10px; /* Note: This is an unusual height value. It might be intended to be 30px or similar to give more vertical space. */
+}
+
+/* ---- Botón ---- */
+button {
+    width: 100%;
+    padding: 12px;
+    background: #1d4ed8;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #163fa3;
+}
+
+/* ---- Mensaje ---- */
+#mensaje {
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+}
